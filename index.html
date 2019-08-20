@@ -10,10 +10,15 @@
 
     <title>Profissão Desenvolvedor </title>
     <link rel="icon" href="imagens/favicon.png"/>
+    <style>
+        body {
+          position: relative;
+        }
+    </style>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar-example2">
       <main class="container">
-          <div class="jumbotron jumbotron-fluid rounded-pill shadow-lg bg-info mt-3">
+          <div class="jumbotron jumbotron-fluid rounded-pill shadow-lg bg-info mt-3 text-center">
               <div class="container">
                   <h1 class="display-4">Profissão Desenvolvedor Web</h1>
                   <p class="lead text-white bg-dark">
@@ -22,7 +27,24 @@
                   </p>
               </div>
           </div>
-          <!--Carrossel-->
+<!-- Início da navegação-->
+<nav id="navbar-example2" class="navbar navbar-light bg-light sticky-top">
+  <a class="navbar-brand" href="#">Igor Patrick Ponticelli</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#frontend">Front-end</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#backend">Back-end</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#devops">DevOps</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- Fim da Navegação-->
+<!--Carrossel-->
 
         <div class="bd-example">
           <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -71,13 +93,60 @@
           </div>
         </div>
 <!--Carrossel-->
+
+<!--Conteúdo-->
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+  <h4 id="frontend" style="padding-top: 80px;">Front-end</h4>
+  <p>...</p><p>O desenvolvedor front-end é responsável por “dar vida” à interface. 
+  Trabalha com a parte da aplicação que interage diretamente com o usuário. Por isso, 
+  é importante que esse desenvolvedor também se preocupe com a experiência do usuário.
+  Na parte de estudo, este profissional 
+  foca em HTML (linguagem de marcação), CSS (linguagem de estilo) e 
+  JavaScript (linguagem de script/programação).</p><p>...</p>
+  <p>Nos últimos anos, esta área também viu a introdução de outras linguagens e pseudo-linguagens, 
+  como TypeScript e CoffeeScript, que podem ser utilizadas de acordo com as necessidades da aplicação.
+Caso esteja interessado em ingressar nesta área, um estudo complementar como teoria das cores 
+e design gráfico, podem ser diferenciais.
+É comum alguns profissionais de front-end trabalharem mais com a parte “criativa” e “artística” 
+da aplicação. Assim como também há os que possuem um perfil mais voltado ao back-end, mesmo atuando como front-end. 
+Esses possuem mais familiaridade com programação e suas nuances. Um tipo de perfil não invalida o outro.</p><p>...</p><p>...</p>
+  <p>...</p><p>...</p><p>...</p>
+  <p>...</p><p>...</p><p>...</p>
+  <p>...</p><p>...</p><p>...</p>
+  <p>...</p><p>...</p><p>...</p>
+  <h4 id="backend" style="padding-top: 80px;">Back-end</h4>
+  <p>...</p>
+  <p>Como o nome sugere, o desenvolvedor back-end trabalha 
+  na parte de “trás” da aplicação. Ele é o responsável, em termos gerais, pela 
+  implementação da regra de negócio.</p>
+  <p>Em uma aplicação web, este desenvolvedor, quando focado, não toca na parte 
+  visual da aplicação. Por lidar com a regra de negócio, as vezes um programador 
+  de sistemas, como de aplicações comerciais e até científicas, pode ser chamado 
+  de desenvolvedor back-end. E geralmente, nessas aplicações, este desenvolvedor 
+  trabalha um pouco com a parte visual. Por isso, para este artigo, o desenvolvedor 
+  back-end levado em conta, é o desenvolvedor de aplicações web.</p>
+  <p>Quando falamos de back-end em desenvolvimento web, nos deparamos com várias linguagens, 
+  como Go, Clojure, C#, PHP, Java, Python, Ruby, entre outras. Cada uma possui vantagens e 
+  desvantagens em relação ao uso no desenvolvimento web, bem como no mercado de trabalho.</p>
+  <p>...</p><p>...</p><p>...</p>
+  <p>...</p><p>...</p><p>...</p>
+  <p>...</p><p>...</p><p>...</p>
+  <p>...</p><p>...</p><p>...</p>
+  <p>...</p><p>...</p><p>...</p>
+  <h4 id="devops" style="padding-top: 80px;">DevOps</h4>
+  <p>...</p><p>...</p><p>...</p>
+  <p>...</p><p>...</p><p>...</p>
+  <p>...</p><p>...</p><p>...</p>
+  <p>...</p><p>...</p><p>...</p>
+  <p>...</p><p>...</p><p>...</p>
+  <p>...</p><p>...</p><p>...</p>
+</div>
+<!-- Fim do Conteúdo-->
+
+
       </main>
 
-      <h2>Saiba mais</h2>
-      <a href="frontend.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Frontend</a>
-      <a href="backend.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Backend</a>
-      <a href="devops.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">DevOps</a>
-
+      
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
