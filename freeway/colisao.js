@@ -11,6 +11,9 @@ function verificaColisao(){
       yVaca = 367;
       xVaca = 185;
       somColisao.play();
+      if(pontosVaca > 0){
+        pontosVaca -= 1;
+      }
     }
   }
     for(let i=0; i<=5; i++){
@@ -21,6 +24,9 @@ function verificaColisao(){
       yPorco = 367;
       xPorco = 285;
       somColisao.play();
+      if(pontosPorco > 0){
+        pontosPorco -=1;
+      }
     }
   }
 }
